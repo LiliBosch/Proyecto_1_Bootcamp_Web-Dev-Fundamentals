@@ -58,6 +58,13 @@
     -webkit-transform: translateX(-8px);
             transform: translateX(-8px);
   }
+
+}
+
+img.logo{
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 body{
   display: flex;
