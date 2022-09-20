@@ -214,14 +214,18 @@ p{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 8px;
 }
 .contact-message{
-  flex: 55%;
-  margin: 15px;
+  flex: 33.33%;
+  margin: 40px;
 }
-.contact-input{
+
+div.social{
   flex: 40%;
+}
+
+.contact-input{
+  flex: 33.33%;
   margin: 10px;
 }
   .contact-input>p{
@@ -459,5 +463,14 @@ section.somos{
         padding: 100px;
       }
 
+      a.ver{
+        text-decoration-line: none;
+        font-family: sans-serif;
+        color: #E6B31E;
+      }
+
+      a.ver:hover{
+        color: #CACACA;
+      }
 
 
